@@ -18,11 +18,11 @@ from fastapi.responses import Response, StreamingResponse
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel, Field
 
-from bwa_backend import app as graph_app
-from bwa_backend.mcp_client import MCPError, invoke_mcp_tool, list_mcp_tools
-from bwa_backend.reducer import save_blog_manifest
-from bwa_backend.worker import worker_node
-from bwa_backend.storage import get_blog, import_blog_from_folder, init_db, list_blogs, save_blog_markdown
+from backend import app as graph_app
+from backend.mcp_client import MCPError, invoke_mcp_tool, list_mcp_tools
+from backend.reducer import save_blog_manifest
+from backend.worker import worker_node
+from backend.storage import get_blog, import_blog_from_folder, init_db, list_blogs, save_blog_markdown
 
 
 ROOT_DIR = Path(__file__).resolve().parent

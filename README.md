@@ -25,7 +25,7 @@ Agentic Blog is a React + FastAPI + LangGraph app for generating technical blogs
 ```text
 Agentic Blog/
   api_server.py
-  bwa_backend/
+  backend/
   frontend/
   mcp_servers/
   outputs/
@@ -145,4 +145,3 @@ git add README.md
 git commit -m "add README"
 git push
 ```
-
