@@ -1,0 +1,14 @@
+fastapi
+uvicorn
+python-dotenv
+pydantic
+langgraph
+langchain-core
+langchain-google-genai
+langchain-community
+tavily-python
+google-genai
+python-docx
+reportlab
+langchain-mcp-adapters
+fastmcp<3
